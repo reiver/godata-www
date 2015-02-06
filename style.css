@@ -1,0 +1,176 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+*:focus {
+	outline: none;
+}
+
+body {
+	background: #222136 url('bg.jpg') no-repeat center bottom fixed;
+
+	-webkit-background-size: cover;
+	-moz-background-size:    cover;
+	-o-background-size:      cover;
+	background-size:         cover;
+
+	color: white;
+}
+body {
+	font-family: sans-serif;
+	font-size:   11pt;
+}
+body,h1,h2 {
+	font-weight: 100;
+}
+
+	.container {
+		position:   relative;
+		margin-top: 50px;
+		text-align: center;
+	}
+
+		h1 {
+			margin: 50px 0;
+			font-size: 200%;
+			line-height: 400%;
+			line-height: 150%;
+		}
+
+
+	.btn-primary {
+		width: 100%;
+		padding: 20px 25px;
+		border: none;
+		border-color: transparent;
+		font-size: 16px;
+		line-height: 18px;
+		font-weight: 300;
+		text-align: center;
+
+	}
+	.btn-primary {
+		background-color: #375eab;
+		color: white;
+	}
+	.btn-primary:hover {
+		background-color: #e0e8f5;
+		color: black;
+	}
+	.btn-primary:focus {
+		outline: none;
+	}
+
+
+
+	.btn:focus {
+		outline: none;
+		-webkit-appearance: none;
+	}
+
+
+
+
+
+		.hero {
+			padding-left:  15px;
+			padding-right: 15px;
+		}
+
+
+
+
+
+
+	.top-right-btn {
+		position: absolute;
+		top:   15px;
+		right: 15px;
+	}
+	.top-right-btn {
+		text-decoration: none;
+		cursor: pointer;
+		font-size:   16px;
+		line-height: 18px;
+		font-weight: 300;
+	}
+	.top-right-btn {
+		color: white;
+	}
+	.top-right-btn:hover {
+		background-color: #375eab;
+		color: white;
+		text-shadow: rgb(71, 71, 71) 3px 5px 2px;
+	}
+
+
+
+
+
+/* Tiny devices (768px and below) */
+@media (max-width: 768px) {
+
+	.logo {
+		font-size:1000%;
+		line-height:5%;
+	}  
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+	.logo {
+		font-size:1000%;
+		line-height:5%;
+	}  
+}
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+	.container {
+		width: 650px;
+		margin-top: 100px;
+		text-align: left;
+	}
+
+		img {
+			width: 100px;
+			height: 100px;
+		}
+
+		h1 {
+			font-size: 46px;
+			line-height: 66px;
+		}
+
+
+		.logo {
+			font-size:1500%;
+			line-height:5%;
+		}
+}
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+	.container {
+		width: 650px;
+		margin-top: 100px;
+		text-align: left;
+	}
+		img {
+			width: 100px;
+			height: 100px;
+		}
+
+		h1 {
+			font-size: 48px;
+			line-height: 68px;
+		}
+
+
+		.logo {
+			font-size:1500%;
+			line-height:5%;
+		}
+}
+
